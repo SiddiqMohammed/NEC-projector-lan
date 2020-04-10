@@ -6,7 +6,6 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 import socket
-import pyautogui, sys
 print('Press Ctrl-C to quit.')
 
 
@@ -18,6 +17,8 @@ time.sleep(5)
 driver.switch_to.frame(driver.find_element_by_name("consoleN"))
 accordion = driver.find_element_by_name('mute_pic')
 
+
+#IP and port of the PC
 UDP_IP = "192.168.1.100"
 UDP_PORT = 5001
 
