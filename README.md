@@ -68,20 +68,6 @@ Install the ethernet2 and ethernet2Udp libraries
 #include <EthernetUdp2.h>
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-```python
-driver.switch_to.frame(driver.find_element_by_name("consoleN"))
-accordion = driver.find_element_by_name('mute_pic')
-```
-Change the element from 'mute pic' to any other element of your choosing. You can do an inspect element of the page to get the name of the button that you want to press.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
